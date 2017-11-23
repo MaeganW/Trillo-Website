@@ -67,7 +67,6 @@ body {
   justify-content: space-between; }
 
 .hotel-view {
-  background-color: teal;
   height: 80rem;
   flex: 1; }
 
@@ -192,3 +191,19 @@ body {
   text-align: center;
   color: var(--color-grey-light-4);
   padding: 2.5rem; }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
+.overview {
+  display: flex; }
+  .overview__stars {
+    margin-right: auto;
+    background-color: teal; }
+  .overview__icon-star, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary); }
