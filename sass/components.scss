@@ -392,11 +392,13 @@
   margin-bottom: 3.5rem;
 
   &__text {
-
+    padding-bottom: 2.5rem;
   }
 
   &__user {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   &__photo {
@@ -406,11 +408,15 @@
   }
 
   &__user-box {
+    font-size: 1.2rem;
+    padding-left: 1rem;
 
+    flex: 1;
+    align-self: stretch;
   }
 
   &__user-name {
-
+    font-weight: bold;
   }
 
   &__user-date {
@@ -418,6 +424,8 @@
   }
 
   &__rating {
-
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    align-self: stretch;
   }
 }
