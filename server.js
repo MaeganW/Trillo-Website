@@ -3,6 +3,8 @@ const path = require('path');
 const app = express();
 const http = require('http').Server(app);
 
+app.get('/css', express.static(path.join(__dirname + '/css')));
+
 app.get('/*', (req, res) => {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
